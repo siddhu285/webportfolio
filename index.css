@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.image-landing {
+    background-image: url(./images/first\ bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbarforlanding {
+    background-color: rgb(51, 55, 182);
+    color: white;
+}
+.uni{
+    color: #542EBF;
+}
+#navbarSupportedContent{
+    color: rgb(0, 136, 255);
+}
+
+.tools-all{
+    background-image: url(./images/blend-color-rainbow-paint-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.footer{
+    background-color:#2e30bf;
+}
+.btn{
+    border-color: #bf6f2e;
+}
+
+#contact2:hover{
+    background-color: #bf872e !important;
+    color: white !important;
+}

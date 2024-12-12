@@ -1,60 +1,73 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins';
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.image-landing {
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#home {
     background-image: url(./images/first\ bg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#navbarforlanding {
-    background-color: rgb(51, 55, 182);
-    color: white;
+#nav {
+    background-color: rgb(13, 95, 136);
 }
 .uni{
-    color: #542EBF;
+    color: rgb(16, 28, 134);
 }
 #navbarSupportedContent{
     color: rgb(0, 136, 255);
 }
-
+#containebody{
+    background-color: rgb(255, 145, 0);
+}
+#base{
+    background-image: url(./images/first\ bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
 .tools-all{
     background-image: url(./images/blend-color-rainbow-paint-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
+
 .footer{
-    background-color:#2e30bf;
+    background-color: rgb(23, 135, 183);
 }
 .btn{
-    border-color: #bf6f2e;
+    border-color: rgb(233, 255, 192);
 }
 
-#contact2:hover{
-    background-color: #bf872e !important;
+#contact2:hover {
+    background-color: rgb(192, 206, 255) !important;
     color: white !important;
-}
-body, html {
-    overflow-x: hidden;
+    border-color: rgb(192, 215, 255);
 }
 
-.container {
-    max-width: 100%;
+.iframe{
+        width: 100% !important;
+        height: 50vh !important;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-.container {
-    max-width: 100%;
-}
-img {
-    max-width: 100%;
-    height: auto;
+#contact a{
+           color: rgb(220, 53, 69) !important;
+           font-size: 2rem !important;
+           font-weight: 600 !important;
+           text-align: center !important;
 }
